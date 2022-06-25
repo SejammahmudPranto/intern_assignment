@@ -1,0 +1,33 @@
+.contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4%;
+    margin-bottom: 5rem;
+}
+.contact-ways div {
+    display: flex;
+    gap: 5%;
+    margin: 4rem 0;
+    align-items: center;
+}
+/* .contact-ways img {
+    width: auto;
+    height: auto;
+} */
+
+@media only screen and (max-width: 600px) {
+    .contact-section {
+        flex-direction: column;
+        margin: 2rem;
+    }
+    .contact-ways {
+        margin: 0 2rem;
+        margin-top: 2rem;
+    }
+    .contact-ways div {
+        margin: 1rem 0;
+    }
+
+
+}

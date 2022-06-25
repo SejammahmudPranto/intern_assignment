@@ -1,0 +1,35 @@
+.success-story {
+    display: flex;
+    flex-direction: column;
+    width: 295px;
+    height: auto;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0px 5px 20px 0 rgb(0 0 0 / 30%)
+}
+
+.success-story_img {
+    width: 295px;
+    height: 204px;
+}
+
+.success-story_content {
+    padding: 1rem;
+}
+
+.success-story_icon {
+    margin-top: 5px;
+    width: auto;
+    height: 25px;
+}
+
+.success-story_p{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.success-story a {
+    text-decoration: none;
+    color: #477EF7;
+}

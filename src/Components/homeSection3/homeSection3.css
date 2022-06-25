@@ -1,0 +1,54 @@
+.collaboration {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4%;
+}
+
+.collaboration h2 {
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0.4em;
+    text-align: center;
+    margin-bottom: 0;
+}
+.collaboration_p {
+    font-size: 28px;
+    margin: 0.4em;
+    margin-top: 0;
+    font-weight: 400;
+}
+
+.collaboration button {
+    font-size: 20px;
+    font-style: Medium;
+    background-color: transparent;
+    border-radius: 4px;
+    margin: 10px 0;
+    padding: 10px;
+    font-weight: 500;
+}
+.steps {
+    display: flex;
+    gap: 4%;
+    margin: 2% 0;
+}
+
+@media only screen and (max-width: 600px) {
+    .collaboration h2 {
+        font-size: 36px;
+        margin: 1.5rem;
+    }
+    .collaboration_p {
+        margin: 0.4rem;
+    }
+    .steps {
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .collaboration button {
+        margin: 2rem 0;
+    }
+}
+

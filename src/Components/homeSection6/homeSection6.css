@@ -1,0 +1,33 @@
+.brands-waiting {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.brands-waiting h2 {
+    font-size: 48px;
+    font-weight: 700;
+    margin: 20px 0;
+}
+.brand-logos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 6%;
+    margin: 20px 0;
+    margin-bottom: 10vh;
+}
+
+@media only screen and (max-width: 600px) {
+    .brands-waiting h2 {
+        font-size: 36px;
+        font-weight: 700;
+        margin: 2rem;
+        text-align: center;
+    }
+    .brand-logos {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+}

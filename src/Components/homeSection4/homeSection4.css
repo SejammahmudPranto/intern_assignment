@@ -1,0 +1,42 @@
+.success-stories {
+    background-color: #F4F7FF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 4%;
+}
+
+.success-stories_p {
+    font-weight: 700;
+    font-size: 17px;
+    margin-top: 4%;
+    margin-bottom: 0;
+}
+
+.success-stories h3 {
+    font-size: 47px;
+    font-weight: 700;
+    width: 60%;
+    text-align: center;
+    margin-top: 0;
+}
+
+.stories {
+    display: flex;
+    gap: 5%;
+    justify-content: space-around;
+}
+
+@media only screen and (max-width: 600px) {
+    .stories {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .success-stories h3 {
+        font-size: 30px;
+        width: 90vw;
+        padding: 1rem;
+    }
+}

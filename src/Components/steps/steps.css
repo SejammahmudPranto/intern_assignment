@@ -1,0 +1,37 @@
+ .step {
+    height: auto;
+    width: 207px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border-width: 2px;
+    border: solid;
+    border-color: #E3F4FE;
+    padding: 8px;
+    border-radius: 8px;
+ }
+
+ .step img {
+    width: 55px;
+    height: 55px;
+ }
+
+ .step h4 {
+    font-weight: 500;
+    font-size: 19px;
+    margin: 0;
+    margin-top: 5px;
+ }
+
+ .steps_p {
+    font-size: 14px;
+    font-weight: 400;
+ }
+
+ @media only screen and (max-width: 600px) {
+   .step {
+      width: 250px;
+      height: 200px;
+   }
+ }

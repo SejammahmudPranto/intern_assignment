@@ -1,0 +1,65 @@
+.become-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+.become-part h2 {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.influencers-say {
+    background-color: #F0F0F9;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5%;
+    gap: 5%
+}
+
+.influencers-say_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.influencers-say_content p {
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+    .become-part h2 {
+        font-size: 36px;
+        justify-self: center;
+        align-self: center;
+        text-align: center;
+    }
+    .influencers-say {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .logo1 img{
+        height: auto;
+        width: 200px;
+    }
+    .influencers-say_content p {
+        font-size: 30px;
+        padding: 1rem 1rem;
+        margin-bottom: 1rem;
+        margin-top: 2rem;
+    }
+
+    .influencers-say_content img {
+        height: auto;
+        width: 300px;
+    }
+}
