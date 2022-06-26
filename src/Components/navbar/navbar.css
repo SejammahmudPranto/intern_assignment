@@ -65,11 +65,10 @@
 }
 .nav_list-mobile {
     display: flex;
+    font-size: 2rem;
     flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
+    align-items: flex-start;
     margin-top: 4rem;
-    height: 60vh;
 }
 .nav_list-mobile li {
     list-style-type: none;
