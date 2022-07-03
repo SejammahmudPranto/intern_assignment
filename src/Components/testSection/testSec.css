@@ -1,0 +1,39 @@
+.mainSec {
+    display: flex;
+    background-color: aqua;
+    padding-left: 147px;
+    padding-right: 108px;
+    gap: 156px;
+    justify-content: space-between;
+}
+
+.subSec1 {
+    margin-top: 41px;
+    margin-bottom: 91px;
+    height: 524px;
+    width: 395px;
+}
+
+.subSec2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 43px;
+    gap: 84px;
+    width: 506px;
+}
+
+.subSec2 h2{
+    font-style: Bold;
+    font-size: 48px;
+    line-height: 56px;
+    line-height: 100%;
+    text-align: center;
+    margin: 0;
+
+}
+.subSec2 img {
+    width: 506px;
+    height: 285px;
+}
