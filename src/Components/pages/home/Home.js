@@ -9,7 +9,7 @@ import HomeSection6 from '../../homeSection6/HomeSection6'
 import HomeSection7 from '../../homeSection7/HomeSection7'
 import HomeSection8 from '../../homeSection8/HomeSection8.js'
 import HomeSection9 from '../../homeSection9/HomeSection9'
-import TestSec from '../../testSection/TestSec'
+// import TestSec from '../../testSection/TestSec'
 
 const Home = () => {
   return (
@@ -19,7 +19,7 @@ const Home = () => {
       <HomeSection3/> {/*Collaboration */}
       <HomeSection4/> {/*Success Stories */}
       <HomeSection5/> {/*Become Part */}
-      <TestSec/>
+      {/* <TestSec/> */}
       <HomeSection6/> {/*Brands */}
       <HomeSection7/> {/*Join the hype */}
       <HomeSection8/> {/*Faqs */}
